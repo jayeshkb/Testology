@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Movie App - Backbone - Evan Freeman</title>
+	</head>
+	<body>
+		<div>
+			<div>
+			<h1>Movies</h1>
+			</div>
+			<div id="mainContainer"></div>
+		</div>
+		<!-- These are the view templates -->
+		<script type="text/template" id="tmplt-Movies">
+			<input type="button" value="Add Item" id="butAddItem" />
+			<ul>
+			</ul>
+		</script>
+		<script type="text/template" id="tmplt-Movie">
+			<div>*******************************************************</div>
+			<div><%= Id %> </div>
+			<div><%= Name %> </div>
+			<div><%= AverageRating %> </div>
+			<div><%= ReleaseYear %> </div>
+			<div><%= Url %></div>
+			<div><%= Rating %> </div>
+		</script>
+	</body>
+	<script type="text/javascript" src="js/libs/jquery/jquery-min.js"></script>
+	<script type="text/javascript" src="js/libs/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="js/libs/backbone/backbone-optamd3-min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</html>
